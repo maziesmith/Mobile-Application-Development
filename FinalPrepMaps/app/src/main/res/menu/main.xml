@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/enter_address"
+        android:title="@string/enter_address"
+        />
+    <item android:id="@+id/zoom_to_fit"
+        android:title="@string/zoom_to_fit"
+        />
+    <item android:id="@+id/clear_fav"
+        android:title="@string/clear_fav"
+        />
+</menu>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HW6</string>
+    <string name="hint_city">City(i.e Charlotte)</string>
+    <string name="hint_country">Country(i.e US)</string>
+    <string name="Search_label">Search</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_user_settings">UserSettings</string>
+    <string-array name="Tempunit">
+        <item name="C">°C</item>
+        <item name="F">°F</item>
+    </string-array>
+    <string-array name="TempunitValues">
+        <item name="C">C</item>
+        <item name="F">F</item>
+    </string-array>
+    <string name="pref_Tempunit"> Select Temperature Unit</string>
+    <string name="pref_Tempunit_summary">Choose between Celsius and Farenheit</string>
+    <string name="loading_hourly_data">Loading data</string>
+    <string name="Temperature_label">Temperature</string>
+    <string name="Condition_label">Condition :</string>
+    <string name="Pressure_label">Pressure</string>
+    <string name="humidity_label">Humidity :</string>
+    <string name="Wind_label">Wind:</string>
+    <string name="savecity">Save City</string>
+    <string name="nofavcity">There are no cities to display .Search the city from the search box and save .</string>
+    <string name="addedFav">City Saved</string>
+
+</resources>

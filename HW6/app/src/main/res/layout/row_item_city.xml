@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_height="match_parent"
+        android:id="@+id/textViewCity"
+        android:text="london, uk"
+        android:layout_width="60dp" />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="0dp"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewTemperature"
+            android:text="268"
+            android:layout_marginLeft="100dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:id="@+id/textViewUpdate"
+
+            android:text="updated on 22/2/22"
+            android:layout_marginLeft="30dp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewStar"
+        android:layout_gravity="right"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        app:srcCompat="@drawable/star_gray" />
+
+
+</LinearLayout>

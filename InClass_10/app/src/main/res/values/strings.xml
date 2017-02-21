@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">InClass_10</string>
+    <string name="Current_label">Current Expenses :</string>
+    <string name="noexpense">There is no expense to show Please add your expense from the menu</string>
+    <string name="AddActivity_label">Add an Expense</string>
+    <string name="Category_label">Category</string>
+    <string name="Expense_Name_label">Expense Name</string>
+    <string name="AmountLabel">Amount</string>
+    <string name="AddExpenseButton">Add Expense</string>
+    <string name="CancelExpenseButton">Cancel</string>
+    <string name="SpinnerCategoryPrompt">Select Category</string>
+    <string name="Name_label">Name</string>
+    <string name="Category_label_2">Category</string>
+    <string name="Amount_label">Amount</string>
+    <string name="Date_label">Date</string>
+    <string name="Close_label">Close</string>
+    <string-array name="sortBy">
+        <item>Name</item>
+        <item>Alphabet</item>
+    </string-array>
+    <string name="et_email">Email</string>
+    <string name="et_password">Password</string>
+    <string name="bt_login">Login</string>
+    <string name="bt_create">Create New Account</string>
+    <string name="bt_signup">Sign Up</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="ed_fullName">Full Name</string>
+    <string name="auth_failed">Wrong Username or Password</string>
+</resources>

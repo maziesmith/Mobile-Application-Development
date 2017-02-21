@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/dialog_holo_dark_frame"
+        android:id="@+id/ImageViewThumbF" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:elevation="0dp"
+        android:layout_width="wrap_content">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:elevation="0dp"
+            android:layout_width="224dp">
+
+        <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewNameF"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPriceF" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@android:drawable/alert_light_frame"
+                android:id="@+id/imageViewDollarF" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="49dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/delete_icon"
+            android:id="@+id/imageViewRecyclebIN"
+            android:layout_marginTop="25dp" />
+    </LinearLayout>
+</LinearLayout>

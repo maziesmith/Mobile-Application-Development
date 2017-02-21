@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HW3_Siddhant</string>
+    <string name="AddExpenseButton">Add Expense</string>
+    <string name="EditExpenseButton">Edit Expense</string>
+    <string name="DeleteExpenseButton">Delete Expense</string>
+    <string name="ShowExpenseButton">Show Expense</string>
+    <string name="FinishButton">Finish</string>
+</resources>

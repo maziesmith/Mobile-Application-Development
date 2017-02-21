@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">in_class_05</string>
+    <string name="Search_keyword">search keyword</string>
+    <string name="go_button">GO</string>
+    <string-array name="kList">
+        <item>
+            UNCC
+        </item>
+        <item>
+            ANDROID
+        </item>
+        <item>
+            WINTER
+        </item>
+        <item>
+            AURORA
+        </item>
+        <item>
+            WONDERS
+        </item>
+
+
+    </string-array>
+</resources>

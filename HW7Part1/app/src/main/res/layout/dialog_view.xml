@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+    <ImageView
+        android:layout_width="118dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/common_full_open_on_phone"
+        android:id="@+id/imageViewAttach"
+        android:tag="attach"
+        android:clickable="true" />
+
+    <Button
+        android:text="@string/SEnd_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSend"
+        android:layout_marginLeft="120dp" />
+</LinearLayout>

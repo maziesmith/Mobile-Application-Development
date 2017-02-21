@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">HW2</string>
+    <string name="AddActivity_label">Add An Expense</string>
+    <string name="AddActivity_title">Add Expense</string>
+    <string name="EditActivity_title">Edit Expense</string>
+    <string name="Expense_Name_label">Expense Name</string>
+    <string name="Category_label">Category</string>
+    <string name="SpinnerCategoryPrompt">Select Category</string>
+    <string name="AmountLabel">Amount</string>
+    <string name="DateLabel">Date</string>
+    <string name="Receipt_label">Receipt</string>
+    <string name="AddExpButton">Add Expense</string>
+    <string name="AddExpenseButton">Add Expense</string>
+    <string name="EditExpenseButton">Edit Expense</string>
+    <string name="DeleteExpenseButton">Delete Expense</string>
+    <string name="ShowExpenseButton">Show Expense</string>
+    <string name="FinishButton">Finish</string>
+    <string name="SaveLabelButton">Save</string>
+    <string name="CancelButtonLabel">Cancel</string>
+    <string name="SelectExpenseLabel">Select Expense</string>
+    <string name="Delete">Delete</string>
+    <string name="Cancel">Cancel</string>
+    <string name="SelectExpense">Select Expense</string>
+    <string name="ShowExpense">Show an expense</string>
+    <string name="Name">Name</string>
+    <string-array name="categories">
+        <item>Groceries</item>
+        <item>Invoice</item>
+        <item>Transportation</item>
+        <item>Shopping</item>
+        <item>Rent</item>
+        <item>Trips</item>
+        <item>Utilities</item>
+        <item>Others</item>
+        <item>Select a category</item>
+    </string-array>
+</resources>

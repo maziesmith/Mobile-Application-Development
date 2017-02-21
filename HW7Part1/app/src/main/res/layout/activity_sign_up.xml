@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hw7part1.SignUpActivity">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:id="@+id/editTextSignupFistName"
+        android:hint="First Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextSignupLastName"
+        android:layout_below="@+id/editTextSignupFistName"
+        android:layout_alignLeft="@+id/editTextSignupFistName"
+        android:layout_alignStart="@+id/editTextSignupFistName"
+        android:hint="Last Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/editTextSignupLastName"
+        android:layout_alignRight="@+id/editTextSignupLastName"
+        android:layout_alignEnd="@+id/editTextSignupLastName"
+        android:id="@+id/editTextSignupEmail"
+        android:hint="Email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextSignupConfirmPassword"
+        android:layout_below="@+id/editTextSignupPassword"
+        android:layout_alignLeft="@+id/editTextSignupEmail"
+        android:layout_alignStart="@+id/editTextSignupEmail"
+        android:hint="Confirm Password" />
+
+
+
+    <Spinner
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCategory"
+        android:spinnerMode="dropdown"
+        android:ems="10"
+        android:prompt="@string/SpinnerCategoryPrompt"
+        android:layout_below="@+id/editTextSignupConfirmPassword"
+        android:layout_alignLeft="@+id/editTextSignupPassword"
+        android:layout_alignStart="@+id/editTextSignupPassword"
+        android:hint="Select the gender"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_label"
+        android:id="@+id/textView4"
+        android:ems="10"
+        android:layout_below="@+id/spinnerCategory"
+        android:layout_alignLeft="@+id/editTextSignupPassword"
+        android:layout_alignStart="@+id/editTextSignupPassword" />
+
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewProfile"
+        android:layout_alignLeft="@+id/editTextSignupPassword"
+        android:layout_alignStart="@+id/editTextSignupPassword"
+        android:layout_marginTop="29dp"
+        android:id="@+id/buttonCancelSignup" />
+
+    <Button
+        android:text="Signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSignupSignup"
+        android:layout_alignBaseline="@+id/buttonCancelSignup"
+        android:layout_alignBottom="@+id/buttonCancelSignup"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="57dp"
+        android:layout_marginEnd="57dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editTextSignupPassword"
+        android:hint="Choose Password"
+        android:layout_below="@+id/editTextSignupEmail"
+        android:layout_alignLeft="@+id/editTextSignupEmail"
+        android:layout_alignStart="@+id/editTextSignupEmail" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/imageViewProfile"
+        android:tag="profile"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        app:srcCompat="?android:attr/actionModeSelectAllDrawable"
+        android:clickable="true" />
+</RelativeLayout>

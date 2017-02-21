@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">In class 3</string>
+    <string name="Department">Department:</string>
+    <string name="SIS">SIS</string>
+    <string name="CS">CS</string>
+    <string name="BIO">BIO</string>
+    <string name="Others">Others</string>
+    <string name="Mood">Your current mood:</string>
+    <string name="Submit">Submit</string>
+    <string name="StudentInfo">Student information</string>
+    <string name="Name">Name : </string>
+    <string name="email">Email : </string>
+    <string name="department">Department :</string>
+    <string name="mood">Mood :</string>
+    <string name="Save">Save</string>
+</resources>

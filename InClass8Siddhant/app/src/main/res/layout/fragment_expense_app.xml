@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.inclass8siddhant.ExpenseAppFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewFrag1"
+        android:text="Current Expenses:" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:id="@+id/listView"
+        android:longClickable="false" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginTop="80dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/add_icon"
+        android:id="@+id/imageButton"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="220dp" />
+
+</FrameLayout>

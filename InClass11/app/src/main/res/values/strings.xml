@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InClass11</string>
+    <string name="ChatRoom">Chat Room</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Chat">Chat</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="auth_failed">Wrong Username or Password</string>
+</resources>

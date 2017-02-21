@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_send_message"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hw7_siddhant.SendMessageActivity">
+
+    <TextView
+        android:text="To: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp"
+        android:id="@+id/textViewToSendMessage" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewToSendMessage"
+        android:layout_toRightOf="@+id/textViewToSendMessage"
+        android:layout_toEndOf="@+id/textViewToSendMessage"
+        android:layout_marginLeft="96dp"
+        android:layout_marginStart="96dp"
+        android:id="@+id/textViewReceiver"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:text="Message: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewToSendMessage"
+        android:layout_toEndOf="@+id/textViewToSendMessage"
+        android:layout_marginTop="63dp"
+        android:id="@+id/textViewMessageChatActivity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignTop="@+id/textViewMessageChatActivity"
+        android:layout_toRightOf="@+id/textViewMessageChatActivity"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/editTextMessageSendActivity"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Message" />
+
+    <Button
+        android:text="Send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextMessageSendActivity"
+        android:layout_alignLeft="@+id/textViewReceiver"
+        android:layout_alignStart="@+id/textViewReceiver"
+        android:layout_marginTop="127dp"
+        android:id="@+id/buttonSendSendActivity" />
+
+    <Button
+        android:text="Select Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/buttonSelectImageSendActivity"
+        android:layout_below="@+id/editTextMessageSendActivity"
+        android:layout_toLeftOf="@+id/buttonSendSendActivity"
+        android:layout_toStartOf="@+id/buttonSendSendActivity"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/com_facebook_profile_picture_blank_portrait"
+        android:layout_alignBottom="@+id/buttonSelectImageSendActivity"
+        android:layout_toRightOf="@+id/buttonSendSendActivity"
+        android:id="@+id/imageViewPicSendActivity"
+        android:layout_alignTop="@+id/buttonSelectImageSendActivity" />
+
+</RelativeLayout>

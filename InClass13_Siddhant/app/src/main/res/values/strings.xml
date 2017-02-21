@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">InClass13_Siddhant</string>
+    <string name="Current_label">Current Expenses :</string>
+    <string-array name="categories">
+        <item>Groceries</item>
+        <item>Invoice</item>
+        <item>Transportation</item>
+        <item>Shopping</item>
+        <item>Rent</item>
+        <item>Trips</item>
+        <item>Utilities</item>
+        <item>Others</item>
+        <item>Select a category</item>
+    </string-array>
+</resources>

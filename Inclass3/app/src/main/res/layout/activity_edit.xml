@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.inclass3.EditActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextNameEdit"
+        android:hint="Name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editTextMailEdit"
+        android:layout_alignParentStart="true"
+        android:hint="Email"
+        android:layout_below="@+id/editTextNameEdit"
+        android:layout_alignParentLeft="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Department"
+        android:id="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextMailEdit"
+        android:layout_alignParentLeft="true"
+        android:visibility="invisible" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/radioGroupEdit"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SIS"
+            android:id="@+id/radioButtonSISEdit"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CS"
+            android:id="@+id/radioButtonCSEdit"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BIO"
+            android:id="@+id/radioButtonBIOEdit"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Others"
+            android:id="@+id/radioButtonOthersEdit"
+            android:checked="false" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Mood"
+        android:id="@+id/textView11"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/radioGroupEdit"
+        android:layout_alignParentLeft="true"
+        android:visibility="invisible" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBarEdit"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11"
+        android:indeterminate="false"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textViewMoodEdit"
+        android:layout_alignBottom="@+id/seekBarEdit"
+        android:layout_toRightOf="@+id/seekBarEdit"
+        android:layout_toEndOf="@+id/seekBarEdit"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Save"
+        android:id="@+id/SubmitEdit"
+        android:layout_below="@+id/seekBarEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp" />
+</RelativeLayout>

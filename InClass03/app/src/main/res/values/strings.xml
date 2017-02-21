@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">InClass03</string>
+    <string name="Department_label">Department</string>
+    <string name="SIS_label">SIS</string>
+    <string name="CS_label">CS</string>
+    <string name="BIO_label">BIO</string>
+    <string name="Others_label">Others</string>
+    <string name="mood_label">Your current  mood :</string>
+    <string name="SubmitButton">Submit</string>
+    <string name="infoLabel">Student Information</string>
+    <string name="name_label">Name : </string>
+    <string name="Email_label">Email : </string>
+    <string name="Dep_label">Department : </string>
+    <string name="moodLabel">Mood : </string>
+    <string name="saveLabel">Save</string>
+    <string name="zero_percent">0%</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/bottom_bar"
+        android:id="@+id/imageViewThumb" />
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="0dp"
+        android:layout_width="224dp">
+
+        <TextView
+            android:layout_width="276dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewName"
+            android:text="268"
+            android:layout_marginLeft="0dp" />
+        <TextView
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewPrice"
+
+            android:text="Price : "
+            android:layout_marginLeft="0dp" />
+        <ImageView
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/price_low"
+            android:id="@+id/imageViewDollar" />
+    </LinearLayout>
+
+</LinearLayout>

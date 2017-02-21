@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ITunes Top Paid Apps</string>
+    <string name="clear_fav">Clear All Favorites</string>
+    <string name="exit">Exit</string>
+    <string name="Filtered_label">Filtered Apps:</string>
+    <string name="Switch_label">Ascending</string>
+    <string name="loading">Loading...</string>
+    <string name="nofilter">There is no filtered apps to display</string>
+    <string-array name="MainList">
+        <item>My Favorite Movies</item>
+        <item>Box Office Movies</item>
+        <item>In Theaters Movies</item>
+        <item>Opening Movies</item>
+        <item>Upcoming Movies</item>
+    </string-array>
+</resources>

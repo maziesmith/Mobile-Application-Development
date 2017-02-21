@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Sender Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewSenderNameInbox" />
+
+        <TextView
+            android:text="MessageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewMessageTextInbox" />
+
+        <ImageView
+            app:srcCompat="@android:drawable/screen_background_dark"
+            android:id="@+id/imageViewInbox"
+            android:clickable="false"
+            android:layout_width="100dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+    <TextView
+        android:text="Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDateInbox"
+        android:layout_weight="1" />
+</LinearLayout>

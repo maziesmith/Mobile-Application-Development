@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HW7_Siddhant</string>
+    <string name="facebook_app_id">658692114303890</string>
+    <string name="profile_label">Choose a profile pic</string>
+    <string name="fb_login_protocol_scheme">fb658692114303890</string>
+    <string name="SpinnerCategoryPrompt">Choose a gender</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

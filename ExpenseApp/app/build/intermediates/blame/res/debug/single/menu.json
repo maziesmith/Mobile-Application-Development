@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Truong Pham\\Documents\\Android\\ExpenseApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu.xml",
+        "source": "C:\\Users\\Truong Pham\\Documents\\Android\\ExpenseApp\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Truong Pham\\Documents\\Android\\ExpenseApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\Truong Pham\\Documents\\Android\\ExpenseApp\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\sid\\Downloads\\ExpenseApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\sid\\Downloads\\ExpenseApp\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\sid\\Downloads\\ExpenseApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu.xml",
+        "source": "C:\\Users\\sid\\Downloads\\ExpenseApp\\app\\src\\main\\res\\menu\\menu.xml"
+    }
+]

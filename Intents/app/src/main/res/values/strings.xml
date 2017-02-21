@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="GoButton">go to 2nd activity</string>
+    <string name="GoButton2">go to 1st activity</string>
+    <string name="GoTo3rd">Go to 3rd activity</string>
+    <string name="AlertButton">Alert Button</string>
+    <string name="SendMain">Send to main</string>
+    <string name="SecActForRes">Second activity for result</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HW4_Siddhant</string>
+    <string name="Q1">Q1</string>
+    <string name="Time_left">Time Left:</string>
+    <string name="Time">Time</string>
+    <string name="Seconds">Seconds</string>
+    <string name="Question_text">Question text</string>
+    <string name="Quit">Quit</string>
+    <string name="Next">Next</string>
+</resources>
