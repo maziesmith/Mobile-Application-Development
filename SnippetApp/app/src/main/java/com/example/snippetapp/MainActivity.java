@@ -78,10 +78,14 @@ public class MainActivity extends AppCompatActivity {
                         gender = "female";
                     }
                     name = nameED.getText().toString();
+                    User user = new User(name, s, gender);
+                    Person person = new Person(name, s , gender);
                     Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
                     intent.putExtra("NAME", name);
                     intent.putExtra("AGE", s);
                     intent.putExtra("GENDER", gender);
+                    intent.putExtra("USER",user);
+                    intent.putExtra("PERSON", person);
                     startActivity(intent);
                 }
             }

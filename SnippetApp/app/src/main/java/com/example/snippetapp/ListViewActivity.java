@@ -9,6 +9,8 @@ public class ListViewActivity extends AppCompatActivity {
     String name;
     String age;
     String gender;
+    User user;
+    Person person;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +20,11 @@ public class ListViewActivity extends AppCompatActivity {
             name = getIntent().getExtras().getString("NAME");
             age = getIntent().getExtras().getString("AGE");
             gender = getIntent().getExtras().getString("GENDER");
-            Toast.makeText(this, name+"  "+age+"  "+gender,Toast.LENGTH_LONG).show();
+            user = (User) getIntent().getExtras().getSerializable("USER");
+            person = (Person) getIntent().getExtras().getParcelable("PERSON");
+            //Toast.makeText(this, name+"  "+age+"  "+gender,Toast.LENGTH_LONG).show();
+            //Toast.makeText(this, user.toString(), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, person.toString(), Toast.LENGTH_LONG).show();
 
         }
 
